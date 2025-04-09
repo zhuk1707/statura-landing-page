@@ -1,0 +1,17 @@
+@import "variables";
+
+.menu {
+  width: 2.4rem;
+  display: none;
+
+  @media all and (max-width: $media-m) {
+    display: block;
+    margin-left: auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  @media all and (max-width: $media-m) {
+    display: block;
+  }
+}

@@ -1,0 +1,30 @@
+@import "variables";
+
+.heading {
+  span {
+    display: inline-block;
+    border-radius: .7rem;
+    padding: 0 0.7rem;
+  }
+
+  &_bg {
+    &_white {
+      span {
+        background-color: $color-white;
+      }
+    }
+
+    &_black {
+      span {
+        background-color: $color_black;
+        color: $color-white;
+      }
+    }
+
+    &_green {
+      span {
+        background-color: $color-green;
+      }
+    }
+  }
+}

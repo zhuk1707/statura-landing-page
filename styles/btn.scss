@@ -1,0 +1,72 @@
+@import "variables";
+
+.btn {
+  padding: 2rem 3.6rem;
+  font-size: $size-btn;
+  border-radius: 1.4rem;
+  color: $color-black;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline-width: 0;
+
+  @media all and (max-width: $media-m) {
+    width: 100%;
+  }
+
+  @media (hover: hover) {
+    transition: all .3s ease-out;
+
+    &:hover,
+    &:active {
+      transition: all .3s ease-in;
+    }
+  }
+
+  &_header {
+    margin-left: 4rem;
+
+    @media all and (max-width: $media-m) {
+      display: none;
+    }
+  }
+
+  &_primary {
+    background-color: $color-dark;
+    color: $color-white;
+    border: 1px solid transparent;
+
+    @media (hover: hover) {
+      &:hover,
+      &:active {
+        color: $color-black;
+        background-color: $color-green;
+        border: 1px solid $color-black;
+      }
+    }
+  }
+
+  &_secondary {
+    background-color: $color-green;
+
+    @media (hover: hover) {
+      &:hover,
+      &:active {
+        background-color: $color-dark;
+        color: $color-green;
+      }
+    }
+  }
+
+  &_outline {
+    border: 1px solid $color-dark;
+
+    @media (hover: hover) {
+      &:hover,
+      &:active {
+        background-color: $color-dark;
+        color: $color-green;
+      }
+    }
+  }
+}

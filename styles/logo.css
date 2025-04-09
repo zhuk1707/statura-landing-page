@@ -1,0 +1,19 @@
+.logo {
+  width: 100%;
+  max-width: 22rem;
+}
+@media all and (max-width: 1200px) {
+  .logo {
+    max-width: 14.4rem;
+  }
+}
+.logo_header {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 0.5rem;
+}
+.logo_footer {
+  max-width: 18rem;
+}
+
+/*# sourceMappingURL=logo.css.map */

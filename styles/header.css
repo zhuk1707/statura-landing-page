@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+@media all and (max-width: 1200px) {
+  .header {
+    padding: 0 2rem;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

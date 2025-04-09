@@ -1,0 +1,17 @@
+.heading span {
+  display: inline-block;
+  border-radius: 0.7rem;
+  padding: 0 0.7rem;
+}
+.heading_bg_white span {
+  background-color: #fff;
+}
+.heading_bg_black span {
+  background-color: #000;
+  color: #fff;
+}
+.heading_bg_green span {
+  background-color: #B9FF66;
+}
+
+/*# sourceMappingURL=heading.css.map */

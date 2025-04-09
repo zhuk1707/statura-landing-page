@@ -1,0 +1,20 @@
+@import 'variables';
+
+.logo {
+  width: 100%;
+  max-width: 22rem;
+
+  @media all and (max-width: $media-m) {
+    max-width: 14.4rem;
+  }
+
+  &_header {
+    position: relative;
+    z-index: 2;
+    margin-bottom: .5rem;  // ?
+  }
+
+  &_footer {
+    max-width: 18rem;
+  }
+}

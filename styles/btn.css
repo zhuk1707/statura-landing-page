@@ -1,0 +1,63 @@
+.btn {
+  padding: 2rem 3.6rem;
+  font-size: 2rem;
+  border-radius: 1.4rem;
+  color: #000;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline-width: 0;
+}
+@media all and (max-width: 1200px) {
+  .btn {
+    width: 100%;
+  }
+}
+@media (hover: hover) {
+  .btn {
+    transition: all 0.3s ease-out;
+  }
+  .btn:hover, .btn:active {
+    transition: all 0.3s ease-in;
+  }
+}
+.btn_header {
+  margin-left: 4rem;
+}
+@media all and (max-width: 1200px) {
+  .btn_header {
+    display: none;
+  }
+}
+.btn_primary {
+  background-color: #191A23;
+  color: #fff;
+  border: 1px solid transparent;
+}
+@media (hover: hover) {
+  .btn_primary:hover, .btn_primary:active {
+    color: #000;
+    background-color: #B9FF66;
+    border: 1px solid #000;
+  }
+}
+.btn_secondary {
+  background-color: #B9FF66;
+}
+@media (hover: hover) {
+  .btn_secondary:hover, .btn_secondary:active {
+    background-color: #191A23;
+    color: #B9FF66;
+  }
+}
+.btn_outline {
+  border: 1px solid #191A23;
+}
+@media (hover: hover) {
+  .btn_outline:hover, .btn_outline:active {
+    background-color: #191A23;
+    color: #B9FF66;
+  }
+}
+
+/*# sourceMappingURL=btn.css.map */
