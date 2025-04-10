@@ -1,0 +1,59 @@
+@import "variables";
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+
+  &-item {
+    padding: 4rem 6rem;
+    border-radius: $radius-card;
+    border: 1px solid $color-dark;
+    box-shadow: 0 5px 0 0 $color-dark;
+    background-color: $color-grey;
+
+    transition: all .5s ease-out;
+
+    .accordion-item__div, .accordion-item__desc, .icon_minus {
+      display: none;
+    }
+
+    &_open { //here
+      background-color: $color-green;
+
+      .accordion-item__div, .accordion-item__desc, .icon_minus{
+        display: block;
+
+      }
+
+      .icon_plus {
+        display: none;
+
+      }
+    }
+
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &_left {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+
+      }
+    }
+
+    &__div {
+      margin: 3rem 0;
+      height: 1px;
+      width: 100%;
+      background-color: $color-dark;
+    }
+
+    &__desc {
+      display: block;
+    }
+  }
+}

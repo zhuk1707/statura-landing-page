@@ -51,6 +51,7 @@
     margin: 0 auto 4rem;
     text-align: center;
     justify-content: center;
+    width: 100%;
   }
 }
 .section_second .section__cards {
@@ -82,6 +83,18 @@
   .section__img {
     margin-bottom: 1rem;
   }
+}
+.section_third {
+  margin-bottom: 14rem;
+}
+.section_third .heading {
+  min-width: 26.5rem;
+}
+.section_fourth {
+  margin-bottom: 8rem;
+}
+.section_fourth .heading {
+  min-width: 24.9rem;
 }
 
 /*# sourceMappingURL=section.css.map */

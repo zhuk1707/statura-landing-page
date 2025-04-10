@@ -95,5 +95,16 @@
     }
   }
 
+  &_studies {
+    border-radius: $radius-card;
+    background-color: $color-dark;
+    color: $color-grey;
+
+    padding: 7rem 6rem;
+
+    @media all and (max-width: $media-m) {
+      padding: 6rem;
+    }
+  }
 }
 

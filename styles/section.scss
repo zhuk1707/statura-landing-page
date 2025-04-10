@@ -54,6 +54,7 @@
       margin: 0 auto 4rem;
       text-align: center;
       justify-content: center;
+      width: 100%;
     }
   }
 
@@ -85,6 +86,25 @@
 
     @media all and (max-width: $media-s) {
       margin-bottom: 1rem;
+    }
+  }
+
+  &_third {
+    margin-bottom: 14rem;
+
+    .heading {
+        min-width: 26.5rem;
+      span {
+      }
+    }
+  }
+
+  &_fourth {
+    margin-bottom: 8rem;
+
+    .heading {
+      min-width: 24.9rem;
+
     }
   }
 }

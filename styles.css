@@ -10,5 +10,49 @@
 @import "styles/heading.css";
 @import "styles/section.css";
 @import "styles/card.css";
+.accordion {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+.accordion-item {
+  padding: 4rem 6rem;
+  border-radius: 4.5rem;
+  border: 1px solid #191A23;
+  box-shadow: 0 5px 0 0 #191A23;
+  background-color: #f3f3f3;
+  transition: all 0.5s ease-out;
+}
+.accordion-item .accordion-item__div, .accordion-item .accordion-item__desc, .accordion-item .icon_minus {
+  display: none;
+}
+.accordion-item_open {
+  background-color: #B9FF66;
+}
+.accordion-item_open .accordion-item__div, .accordion-item_open .accordion-item__desc, .accordion-item_open .icon_minus {
+  display: block;
+}
+.accordion-item_open .icon_plus {
+  display: none;
+}
+.accordion-item__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.accordion-item__header_left {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+.accordion-item__div {
+  margin: 3rem 0;
+  height: 1px;
+  width: 100%;
+  background-color: #191A23;
+}
+.accordion-item__desc {
+  display: block;
+}
 
 /*# sourceMappingURL=styles.css.map */

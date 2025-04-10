@@ -48,8 +48,14 @@
     }
   }
 
-  &__text_white {
-    color: $color-white;
+  &__text {
+    &_white {
+      color: $color-white;
+    }
+
+    &_green {
+      color: $color-green;
+    }
   }
 
   &_color {

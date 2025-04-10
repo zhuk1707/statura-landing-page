@@ -78,5 +78,16 @@
     display: none;
   }
 }
+.card_studies {
+  border-radius: 4.5rem;
+  background-color: #191A23;
+  color: #f3f3f3;
+  padding: 7rem 6rem;
+}
+@media all and (max-width: 1200px) {
+  .card_studies {
+    padding: 6rem;
+  }
+}
 
 /*# sourceMappingURL=card.css.map */
