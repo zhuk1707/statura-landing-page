@@ -93,7 +93,8 @@
     margin-bottom: 14rem;
 
     .heading {
-        min-width: 26.5rem;
+      min-width: 26.5rem;
+
       span {
       }
     }
@@ -106,5 +107,22 @@
       min-width: 24.9rem;
 
     }
+  }
+
+  &_fifth {
+    #{$this}__cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4rem;
+
+      @media all and (max-width: $media-m) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @media all and (max-width: $media-s) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
   }
 }

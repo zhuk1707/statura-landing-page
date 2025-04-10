@@ -89,5 +89,38 @@
     padding: 6rem;
   }
 }
+.card_team {
+  border: 1px solid #191A23;
+  border-radius: 4.5rem;
+  background-color: #fff;
+  box-shadow: 0 5px 0 0 #191A23;
+  padding: 4rem 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+.card_team .card__header {
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+  position: relative;
+}
+.card_team .card__div {
+  display: block;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #191A23;
+}
+.card_team .btn-linkedin {
+  background-color: #000;
+  border: none;
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
 /*# sourceMappingURL=card.css.map */

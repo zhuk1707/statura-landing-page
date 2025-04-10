@@ -96,5 +96,20 @@
 .section_fourth .heading {
   min-width: 24.9rem;
 }
+.section_fifth .section__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+@media all and (max-width: 1200px) {
+  .section_fifth .section__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media all and (max-width: 500px) {
+  .section_fifth .section__cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 
 /*# sourceMappingURL=section.css.map */
