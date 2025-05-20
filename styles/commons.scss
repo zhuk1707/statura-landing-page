@@ -72,7 +72,7 @@ h4 {
   }
 }
 
-p {
+p, input, label, textarea {
   font-size: $size-p;
   margin: 0;
 
@@ -134,6 +134,36 @@ p {
       }
     }
   }
+}
+
+.section_sixth {
+  .form {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 8rem 10rem;
+    background-color: $color-grey;
+    border-radius: $radius-card;
+    gap: 2.5rem;
+
+    .row {
+      display: flex;
+      flex-direction: column;
+      gap: .5rem;
+
+      .input, textarea {
+        padding: 1.8rem 3rem;
+        border-radius: 2rem;
+        border: 1px solid $color-black;
+
+      }
+    }
+
+    .btn {
+      margin-top: 4rem;
+    }
+  }
+
+
 }
 
 

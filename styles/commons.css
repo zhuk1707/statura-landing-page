@@ -73,12 +73,12 @@ h4 {
   }
 }
 
-p {
+p, input, label, textarea {
   font-size: 1.8rem;
   margin: 0;
 }
 @media all and (max-width: 500px) {
-  p {
+  p, input, label, textarea {
     font-size: 1.6rem;
   }
 }
@@ -135,6 +135,28 @@ p {
   .cases__item p {
     width: 100%;
   }
+}
+
+.section_sixth .form {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 8rem 10rem;
+  background-color: #f3f3f3;
+  border-radius: 4.5rem;
+  gap: 2.5rem;
+}
+.section_sixth .form .row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.section_sixth .form .row .input, .section_sixth .form .row textarea {
+  padding: 1.8rem 3rem;
+  border-radius: 2rem;
+  border: 1px solid #000;
+}
+.section_sixth .form .btn {
+  margin-top: 4rem;
 }
 
 /*# sourceMappingURL=commons.css.map */
